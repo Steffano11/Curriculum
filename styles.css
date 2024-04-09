@@ -1,0 +1,150 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #585858;
+    padding: 20px;
+    height: 100%;
+}
+
+.nombre{
+    text-align: center;
+    margin-top: -250px;
+    font-size: 250%;
+    padding-left: 150px ;
+    font-family: Lato;  
+    color: white;
+} 
+#foto{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.imagen{
+    text-align: left;
+    padding-left: 100px;
+    
+}
+.texto{
+    text-align: center;
+    margin-top: -10px;
+    font-size: 200%;
+    padding-left: 150px ;
+    font-family: Lato;
+    color: white;
+}
+
+.contenedor {
+    display: flex;
+    height: 100%;
+    padding: 20px 10px;
+    background-color:#f2f2f2;
+    width: 30%;
+    margin-top: 150px;
+}
+.informacion{
+    margin-top: -450px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 30px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.divisor {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: -15px 0;
+    width: 350px;
+}
+.imagen2{
+    padding-left: 5px;
+    margin-top: 30px;
+    transform: rotate(-10deg);
+}
+.numero{
+    margin-top: -30px;
+    padding-left: 45px;
+    font-size: 25px;
+}
+
+.imagen3{
+    padding-left: auto;
+    margin-top: -10px;
+}
+.correo{
+    margin-top: -40px;
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.imagen4{
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.ubicacion{
+    margin-top: -30px;
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.imagen5{
+    padding-left: 5px;
+    margin-top: 10px;
+}
+.linkedin{
+    margin-top: -30px;
+    padding-left: 45px;
+    font-size: 20px;
+}
+
+.texto_predeterminado{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divisor2 {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    margin: -15px 0;
+    width: 900px;
+}
+.otra_parte{
+    padding-left: 500px;
+}
+
+.informacion2{
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 100px;
+}
+
+.ciudad {
+    font-weight: bold;
+    font-style: Lato;
+  }
+  
+  .pais {
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .fecha {
+    color: #a7a7a7;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: 1fr; 
+        padding: 10px; 
+    }
+    .contenedor {
+        width: 100%; 
+        flex-direction: column; 
+    }
+}
